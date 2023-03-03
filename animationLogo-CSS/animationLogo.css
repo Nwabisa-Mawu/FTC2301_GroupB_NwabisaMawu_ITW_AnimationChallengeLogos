@@ -1,0 +1,25 @@
+
+
+@keyframes animatedLinkedIn {
+    0% {transform: scale(60px);} /*Precentage you want keyframe to be set at, therefore
+                            0% is the start of the animation == effectively created 4 keyframes*/
+                            25%{transform: translateX(150px);}
+                            50%{transform: scale(80px);}
+                            100%{transform: rotate(180deg);}
+}
+
+
+
+
+img {width: 50px;
+    height: 50px;
+    border-radius: 100%;
+
+    animation-name: animatedLinkedIn;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;}
+
+
+
